@@ -1,0 +1,2491 @@
+{
+  "version": "2.10",
+  "children": [
+    {
+      "type": "frame",
+      "id": "LrDoI",
+      "x": 0,
+      "y": 0,
+      "name": "CV Portfolio Page",
+      "width": 1440,
+      "fill": "$surface-primary",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "MrNY8",
+          "name": "Hero Section",
+          "width": "fill_container",
+          "fill": "$surface-primary",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            96,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "vLQ53",
+              "name": "plusMark",
+              "fill": "$accent-primary",
+              "content": "+",
+              "fontFamily": "Inter",
+              "fontSize": 48,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "IFF38",
+              "name": "badge",
+              "fill": "$accent-muted",
+              "cornerRadius": 999,
+              "gap": 8,
+              "padding": [
+                6,
+                16
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "HFa5M",
+                  "name": "badgeDot",
+                  "fill": "$accent-primary",
+                  "width": 8,
+                  "height": 8
+                },
+                {
+                  "type": "text",
+                  "id": "kNWE5",
+                  "name": "badgeText",
+                  "fill": "$accent-primary",
+                  "content": "Open to Work",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 13,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.5
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "domXO",
+              "name": "nameText",
+              "fill": "$foreground-primary",
+              "content": "Ekkasit Samathimankong",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 72,
+              "fontWeight": "800",
+              "letterSpacing": -2
+            },
+            {
+              "type": "text",
+              "id": "ZzYxa",
+              "name": "titleText",
+              "fill": "$foreground-secondary",
+              "content": "AI-Driven Software Developer (All Platforms)",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 24,
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "xNVJi",
+              "name": "tagline",
+              "fill": "$foreground-muted",
+              "textGrowth": "fixed-width",
+              "width": 700,
+              "content": "I build scalable, AI-powered systems across mobile, backend, and web platforms with over 16 years of experience.",
+              "lineHeight": 1.6,
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 18
+            },
+            {
+              "type": "frame",
+              "id": "KVYdI",
+              "name": "ctaRow",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "hP0Gc",
+                  "name": "btnPrimary",
+                  "fill": "$accent-primary",
+                  "cornerRadius": "$radius-md",
+                  "padding": [
+                    14,
+                    32
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "IoGSP",
+                      "name": "btnPrimaryText",
+                      "fill": "$foreground-inverse",
+                      "content": "View Projects",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "rTdAr",
+                  "name": "btnCV",
+                  "cornerRadius": "$radius-md",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$border-subtle"
+                  },
+                  "padding": [
+                    14,
+                    32
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "c6VqB",
+                      "name": "btnCVText",
+                      "fill": "$foreground-primary",
+                      "content": "Download CV",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "bjVft",
+                  "name": "btnContact",
+                  "cornerRadius": "$radius-md",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$border-subtle"
+                  },
+                  "padding": [
+                    14,
+                    32
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "81mRK",
+                      "name": "btnContactText",
+                      "fill": "$foreground-primary",
+                      "content": "Contact Me",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "YSTHX",
+              "name": "tagsRow",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "P61wn",
+                  "name": "tag1",
+                  "fill": "$surface-card",
+                  "cornerRadius": 999,
+                  "padding": [
+                    8,
+                    16
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "djn7w",
+                      "name": "tag1Text",
+                      "fill": "$foreground-secondary",
+                      "content": "AI-Driven Applications",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 13
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Kh8lO",
+                  "name": "tag2",
+                  "fill": "$surface-card",
+                  "cornerRadius": 999,
+                  "padding": [
+                    8,
+                    16
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Y5t8X",
+                      "name": "tag2Text",
+                      "fill": "$foreground-secondary",
+                      "content": "Mobile Development",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 13
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "OUETS",
+                  "name": "tag3",
+                  "fill": "$surface-card",
+                  "cornerRadius": 999,
+                  "padding": [
+                    8,
+                    16
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "GcGYI",
+                      "name": "tag3Text",
+                      "fill": "$foreground-secondary",
+                      "content": "Backend Systems & APIs",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 13
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "LwQ0U",
+                  "name": "tag4",
+                  "fill": "$surface-card",
+                  "cornerRadius": 999,
+                  "padding": [
+                    8,
+                    16
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "MQAtF",
+                      "name": "tag4Text",
+                      "fill": "$foreground-secondary",
+                      "content": "Scalable Architecture",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 13
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "otrDH",
+          "name": "Featured Projects Section",
+          "width": "fill_container",
+          "fill": "$surface-primary",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            96,
+            120
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "Crhv6",
+              "name": "eyebrow",
+              "fill": "$accent-primary",
+              "content": "+ FEATURED PROJECTS",
+              "fontFamily": "Geist Mono",
+              "fontSize": 13,
+              "fontWeight": "500",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "pWs9u",
+              "name": "title",
+              "fill": "$foreground-primary",
+              "content": "Selected Work",
+              "lineHeight": 1.1,
+              "fontFamily": "Inter",
+              "fontSize": 56,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "BSyHa",
+              "name": "Projects Grid",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "qCS1W",
+                  "name": "Row 1",
+                  "width": "fill_container",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "G4q8f",
+                      "name": "Card 1",
+                      "width": "fill_container",
+                      "fill": "$surface-card",
+                      "cornerRadius": "$radius-md",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "padding": 32,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "wqLCB",
+                          "name": "c1title",
+                          "fill": "$foreground-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "AI Experience Generation — Jesus Film Project",
+                          "fontFamily": "Inter",
+                          "fontSize": 20,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "n6wmU",
+                          "name": "c1desc",
+                          "fill": "$foreground-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Built AI-powered systems to generate scalable digital content experiences.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "v38LN",
+                          "name": "Tags",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "jDnzd",
+                              "name": "c1t1",
+                              "fill": "$accent-muted",
+                              "cornerRadius": "$radius-sm",
+                              "padding": [
+                                6,
+                                12
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "NsC68",
+                                  "name": "c1t1txt",
+                                  "fill": "$accent-primary",
+                                  "content": "AI",
+                                  "fontFamily": "Geist Mono",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "coiMq",
+                              "name": "c1t2",
+                              "fill": "$accent-muted",
+                              "cornerRadius": "$radius-sm",
+                              "padding": [
+                                6,
+                                12
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "bcv7n",
+                                  "name": "c1t2txt",
+                                  "fill": "$accent-primary",
+                                  "content": "Expo",
+                                  "fontFamily": "Geist Mono",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "VSLhH",
+                              "name": "c1t3",
+                              "fill": "$accent-muted",
+                              "cornerRadius": "$radius-sm",
+                              "padding": [
+                                6,
+                                12
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "ADyj7",
+                                  "name": "c1t3txt",
+                                  "fill": "$accent-primary",
+                                  "content": "GraphQL",
+                                  "fontFamily": "Geist Mono",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "b6GyH",
+                              "name": "c1t4",
+                              "fill": "$accent-muted",
+                              "cornerRadius": "$radius-sm",
+                              "padding": [
+                                6,
+                                12
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "J42JW",
+                                  "name": "c1t4txt",
+                                  "fill": "$accent-primary",
+                                  "content": "CMS",
+                                  "fontFamily": "Geist Mono",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "sAdcw",
+                          "name": "c1link",
+                          "fill": "$accent-primary",
+                          "content": "View Project →",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "rtL0d",
+                      "name": "Card 2",
+                      "width": "fill_container",
+                      "fill": "$surface-card",
+                      "cornerRadius": "$radius-md",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "padding": 32,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "tUsFD",
+                          "name": "c2title",
+                          "fill": "$foreground-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Jesus Film App (Production Engineer)",
+                          "fontFamily": "Inter",
+                          "fontSize": 20,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "DZinC",
+                          "name": "c2desc",
+                          "fill": "$foreground-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Contributed as Production Engineer on a global-scale mobile application ensuring reliability and performance.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "DRy4s",
+                          "name": "Tags",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "mmnP7",
+                              "name": "c2t1",
+                              "fill": "$accent-muted",
+                              "cornerRadius": "$radius-sm",
+                              "padding": [
+                                6,
+                                12
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "ITueT",
+                                  "name": "c2t1txt",
+                                  "fill": "$accent-primary",
+                                  "content": "Android",
+                                  "fontFamily": "Geist Mono",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "6ilJw",
+                              "name": "c2t2",
+                              "fill": "$accent-muted",
+                              "cornerRadius": "$radius-sm",
+                              "padding": [
+                                6,
+                                12
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "l9N1x",
+                                  "name": "c2t2txt",
+                                  "fill": "$accent-primary",
+                                  "content": "Backend",
+                                  "fontFamily": "Geist Mono",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "XXNQT",
+                              "name": "c2t3",
+                              "fill": "$accent-muted",
+                              "cornerRadius": "$radius-sm",
+                              "padding": [
+                                6,
+                                12
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "CIJNM",
+                                  "name": "c2t3txt",
+                                  "fill": "$accent-primary",
+                                  "content": "Cloud",
+                                  "fontFamily": "Geist Mono",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "8Ukix",
+                          "name": "c2link",
+                          "fill": "$accent-primary",
+                          "content": "View Project →",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "LShzO",
+                  "name": "Row 2",
+                  "width": "fill_container",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "imZzO",
+                      "name": "Card 3",
+                      "width": "fill_container",
+                      "fill": "$surface-card",
+                      "cornerRadius": "$radius-md",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "padding": 32,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "P2ob0",
+                          "name": "c3title",
+                          "fill": "$foreground-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Scientific Calculator App",
+                          "fontFamily": "Inter",
+                          "fontSize": 20,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "pEmuO",
+                          "name": "c3desc",
+                          "fill": "$foreground-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Built a full-featured scientific calculator for Android with end-to-end development.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ldLbm",
+                          "name": "Tags",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "hjHwh",
+                              "name": "c3t1",
+                              "fill": "$accent-muted",
+                              "cornerRadius": "$radius-sm",
+                              "padding": [
+                                6,
+                                12
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "iDuJl",
+                                  "name": "c3t1txt",
+                                  "fill": "$accent-primary",
+                                  "content": "Android",
+                                  "fontFamily": "Geist Mono",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "7xYGA",
+                              "name": "c3t2",
+                              "fill": "$accent-muted",
+                              "cornerRadius": "$radius-sm",
+                              "padding": [
+                                6,
+                                12
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "FP9fe",
+                                  "name": "c3t2txt",
+                                  "fill": "$accent-primary",
+                                  "content": "Java/Kotlin",
+                                  "fontFamily": "Geist Mono",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "o2jH3",
+                          "name": "c3link",
+                          "fill": "$accent-primary",
+                          "content": "View Project →",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "QXxhi",
+                      "name": "Card 4",
+                      "width": "fill_container",
+                      "fill": "$surface-card",
+                      "cornerRadius": "$radius-md",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "padding": 32,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "O9teb",
+                          "name": "c4title",
+                          "fill": "$foreground-primary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "GitHub Portfolio",
+                          "fontFamily": "Inter",
+                          "fontSize": 20,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "KjAZC",
+                          "name": "c4desc",
+                          "fill": "$foreground-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Real-world code and technical experiments demonstrating architecture and coding standards.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "movXR",
+                          "name": "Tags",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "JSCOI",
+                              "name": "c4t1",
+                              "fill": "$accent-muted",
+                              "cornerRadius": "$radius-sm",
+                              "padding": [
+                                6,
+                                12
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "A6KA3",
+                                  "name": "c4t1txt",
+                                  "fill": "$accent-primary",
+                                  "content": "GitHub",
+                                  "fontFamily": "Geist Mono",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "fWpXa",
+                              "name": "c4t2",
+                              "fill": "$accent-muted",
+                              "cornerRadius": "$radius-sm",
+                              "padding": [
+                                6,
+                                12
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "bS57L",
+                                  "name": "c4t2txt",
+                                  "fill": "$accent-primary",
+                                  "content": "Open Source",
+                                  "fontFamily": "Geist Mono",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "rZp8e",
+                          "name": "c4link",
+                          "fill": "$accent-primary",
+                          "content": "View Project →",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "43Lj4",
+          "name": "Case Study + About + Approach Section",
+          "width": "fill_container",
+          "fill": "$surface-primary",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "nKm0h",
+              "name": "Case Study Section",
+              "width": "fill_container",
+              "fill": "$surface-primary",
+              "layout": "vertical",
+              "gap": 32,
+              "padding": [
+                96,
+                120
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "3IyHg",
+                  "name": "eyebrow1",
+                  "fill": "$accent-primary",
+                  "content": "+ CASE STUDY",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 13,
+                  "fontWeight": "500",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "kWnLB",
+                  "name": "title1",
+                  "fill": "$foreground-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Application Development & Optimization",
+                  "lineHeight": 1.15,
+                  "fontFamily": "Inter",
+                  "fontSize": 42,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "e3Qrj",
+                  "name": "Columns",
+                  "width": "fill_container",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "R55jI",
+                      "name": "Problem Card",
+                      "width": "fill_container",
+                      "fill": "$surface-card",
+                      "cornerRadius": "$radius-md",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$border-subtle"
+                      },
+                      "layout": "vertical",
+                      "gap": 16,
+                      "padding": 32,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "esxjf",
+                          "name": "cardLabel1",
+                          "fill": "$accent-primary",
+                          "content": "Problem",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 12,
+                          "fontWeight": "500",
+                          "letterSpacing": 2
+                        },
+                        {
+                          "type": "text",
+                          "id": "XWOoD",
+                          "name": "cardText1",
+                          "fill": "$foreground-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "The application required accurate calculations and responsive performance.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Inter",
+                          "fontSize": 15
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Vo5hx",
+                      "name": "Solution Card",
+                      "width": "fill_container",
+                      "fill": "$surface-card",
+                      "cornerRadius": "$radius-md",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$border-subtle"
+                      },
+                      "layout": "vertical",
+                      "gap": 16,
+                      "padding": 32,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "o1pxK",
+                          "name": "cardLabel2",
+                          "fill": "$accent-primary",
+                          "content": "Solution",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 12,
+                          "fontWeight": "500",
+                          "letterSpacing": 2
+                        },
+                        {
+                          "type": "text",
+                          "id": "ZlXa1",
+                          "name": "cardText2",
+                          "fill": "$foreground-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Designed modular architecture, implemented efficient logic, optimized UI and data handling.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Inter",
+                          "fontSize": 15
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "A57MK",
+                      "name": "Result Card",
+                      "width": "fill_container",
+                      "fill": "$surface-card",
+                      "cornerRadius": "$radius-md",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$border-subtle"
+                      },
+                      "layout": "vertical",
+                      "gap": 16,
+                      "padding": 32,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "9yRZN",
+                          "name": "cardLabel3",
+                          "fill": "$accent-primary",
+                          "content": "Result",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 12,
+                          "fontWeight": "500",
+                          "letterSpacing": 2
+                        },
+                        {
+                          "type": "text",
+                          "id": "BjCgY",
+                          "name": "cardText3",
+                          "fill": "$foreground-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Stable production-ready app, improved performance and usability.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Inter",
+                          "fontSize": 15
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "wSip3",
+              "name": "About Section",
+              "width": "fill_container",
+              "fill": "$surface-secondary",
+              "layout": "vertical",
+              "gap": 32,
+              "padding": [
+                96,
+                120
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "T6zKa",
+                  "name": "eyebrow2",
+                  "fill": "$accent-primary",
+                  "content": "+ ABOUT",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 13,
+                  "fontWeight": "500",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "frame",
+                  "id": "3tL3t",
+                  "name": "Statement Wrap",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "dV71W",
+                      "name": "stmt1",
+                      "fill": "$foreground-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "I am an AI-Driven Software Developer with over 14 years of experience building systems across mobile, backend, and web platforms.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 24,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "fmgT0",
+                      "name": "stmt2",
+                      "fill": "$foreground-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "My work focuses on performance, scalability, and intelligent automation.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 24,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "ZRSdh",
+                  "name": "bodyText",
+                  "fill": "$foreground-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Combining deep expertise in Android, Kotlin, and Flutter with modern AI-assisted development practices, I build solutions that are robust, maintainable, and designed to evolve. From architecting complex mobile applications to optimizing backend systems, every project is driven by a commitment to quality and a focus on real-world impact.",
+                  "lineHeight": 1.7,
+                  "fontFamily": "Inter",
+                  "fontSize": 16
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "UIdJV",
+              "name": "Engineering Approach Section",
+              "width": "fill_container",
+              "fill": "$surface-primary",
+              "layout": "vertical",
+              "gap": 48,
+              "padding": [
+                96,
+                120
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "BbF4C",
+                  "name": "eyebrow3",
+                  "fill": "$accent-primary",
+                  "content": "+ ENGINEERING APPROACH",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 13,
+                  "fontWeight": "500",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "frame",
+                  "id": "xWvJh",
+                  "name": "Approach Cards",
+                  "width": "fill_container",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "tRtmE",
+                      "name": "Card 1",
+                      "width": "fill_container",
+                      "fill": "$surface-card",
+                      "cornerRadius": "$radius-md",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$border-subtle"
+                      },
+                      "layout": "vertical",
+                      "gap": 16,
+                      "padding": 28,
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "Sqqet",
+                          "name": "ic1",
+                          "width": 32,
+                          "height": 32,
+                          "iconFontName": "brain-circuit",
+                          "iconFontFamily": "lucide",
+                          "fill": "$accent-primary"
+                        },
+                        {
+                          "type": "text",
+                          "id": "BHOZ0",
+                          "name": "at1",
+                          "fill": "$foreground-primary",
+                          "content": "AI-Driven Systems",
+                          "fontFamily": "Inter",
+                          "fontSize": 17,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "IOoZM",
+                          "name": "ad1",
+                          "fill": "$foreground-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Build AI-driven and scalable systems that adapt and grow with real-world demands.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Inter",
+                          "fontSize": 14
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "L7kXB",
+                      "name": "Card 2",
+                      "width": "fill_container",
+                      "fill": "$surface-card",
+                      "cornerRadius": "$radius-md",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$border-subtle"
+                      },
+                      "layout": "vertical",
+                      "gap": 16,
+                      "padding": 28,
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "j8CdB",
+                          "name": "ic2",
+                          "width": 32,
+                          "height": 32,
+                          "iconFontName": "code",
+                          "iconFontFamily": "lucide",
+                          "fill": "$accent-primary"
+                        },
+                        {
+                          "type": "text",
+                          "id": "MCpsj",
+                          "name": "at2",
+                          "fill": "$foreground-primary",
+                          "content": "Clean Code",
+                          "fontFamily": "Inter",
+                          "fontSize": 17,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Mbwuh",
+                          "name": "ad2",
+                          "fill": "$foreground-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Write clean and maintainable code that teams can understand and evolve.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Inter",
+                          "fontSize": 14
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "6SRay",
+                      "name": "Card 3",
+                      "width": "fill_container",
+                      "fill": "$surface-card",
+                      "cornerRadius": "$radius-md",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$border-subtle"
+                      },
+                      "layout": "vertical",
+                      "gap": 16,
+                      "padding": 28,
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "jNX5V",
+                          "name": "ic3",
+                          "width": 32,
+                          "height": 32,
+                          "iconFontName": "gauge",
+                          "iconFontFamily": "lucide",
+                          "fill": "$accent-primary"
+                        },
+                        {
+                          "type": "text",
+                          "id": "5YzpY",
+                          "name": "at3",
+                          "fill": "$foreground-primary",
+                          "content": "Performance First",
+                          "fontFamily": "Inter",
+                          "fontSize": 17,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "HQXqy",
+                          "name": "ad3",
+                          "fill": "$foreground-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Design for performance and reliability from the ground up.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Inter",
+                          "fontSize": 14
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "O10OE",
+                      "name": "Card 4",
+                      "width": "fill_container",
+                      "fill": "$surface-card",
+                      "cornerRadius": "$radius-md",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$border-subtle"
+                      },
+                      "layout": "vertical",
+                      "gap": 16,
+                      "padding": 28,
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "nX59p",
+                          "name": "ic4",
+                          "width": 32,
+                          "height": 32,
+                          "iconFontName": "workflow",
+                          "iconFontFamily": "lucide",
+                          "fill": "$accent-primary"
+                        },
+                        {
+                          "type": "text",
+                          "id": "dElHL",
+                          "name": "at4",
+                          "fill": "$foreground-primary",
+                          "content": "Smart Automation",
+                          "fontFamily": "Inter",
+                          "fontSize": 17,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Rucv1",
+                          "name": "ad4",
+                          "fill": "$foreground-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Solve real-world problems with intelligent automation and streamlined workflows.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Inter",
+                          "fontSize": 14
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "0WmdV",
+                  "name": "quote",
+                  "fill": "$foreground-muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "\"I believe software should be intelligent, scalable, and easy to evolve.\"",
+                  "lineHeight": 1.6,
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontStyle": "italic"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "k4Vof",
+          "name": "Skills + Experience Section",
+          "width": "fill_container",
+          "fill": "$surface-primary",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "nNpbH",
+              "name": "skillsSection",
+              "width": "fill_container",
+              "fill": "$surface-primary",
+              "layout": "vertical",
+              "gap": 48,
+              "padding": [
+                96,
+                120
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "VNI1d",
+                  "name": "eyebrow1",
+                  "fill": "$accent-primary",
+                  "content": "+ SKILLS",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 13,
+                  "fontWeight": "500",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "KQxHW",
+                  "name": "title1",
+                  "fill": "$foreground-primary",
+                  "content": "Technical Expertise",
+                  "fontFamily": "Inter",
+                  "fontSize": 42,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "HsnwQ",
+                  "name": "grid",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "viVUf",
+                      "name": "row1",
+                      "width": "fill_container",
+                      "gap": 24,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "EQu9A",
+                          "name": "card1",
+                          "width": "fill_container",
+                          "fill": "$surface-card",
+                          "cornerRadius": "$radius-md",
+                          "layout": "vertical",
+                          "gap": 20,
+                          "padding": 32,
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "aqi0U",
+                              "name": "icon1",
+                              "width": 28,
+                              "height": 28,
+                              "iconFontName": "brain-circuit",
+                              "iconFontFamily": "lucide",
+                              "fill": "$accent-primary"
+                            },
+                            {
+                              "type": "text",
+                              "id": "uW1XH",
+                              "name": "cardTitle1",
+                              "fill": "$foreground-primary",
+                              "content": "AI & Emerging Tech",
+                              "fontFamily": "Inter",
+                              "fontSize": 18,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "n10Lk",
+                              "name": "item1a",
+                              "fill": "$foreground-secondary",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "• AI-driven content systems\n• Automated content generation\n• Intelligent pipelines",
+                              "lineHeight": 1.7,
+                              "fontFamily": "Inter",
+                              "fontSize": 14
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "1PlRV",
+                          "name": "card2",
+                          "width": "fill_container",
+                          "fill": "$surface-card",
+                          "cornerRadius": "$radius-md",
+                          "layout": "vertical",
+                          "gap": 20,
+                          "padding": 32,
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "CyBeN",
+                              "name": "icon2",
+                              "width": 28,
+                              "height": 28,
+                              "iconFontName": "smartphone",
+                              "iconFontFamily": "lucide",
+                              "fill": "$accent-primary"
+                            },
+                            {
+                              "type": "text",
+                              "id": "JcIpR",
+                              "name": "cardTitle2",
+                              "fill": "$foreground-primary",
+                              "content": "Mobile Development",
+                              "fontFamily": "Inter",
+                              "fontSize": 18,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "0Ljbv",
+                              "name": "item2a",
+                              "fill": "$foreground-secondary",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "• Flutter\n• Android (Java/Kotlin)",
+                              "lineHeight": 1.7,
+                              "fontFamily": "Inter",
+                              "fontSize": 14
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "9jHvx",
+                      "name": "row2",
+                      "width": "fill_container",
+                      "gap": 24,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "XYORB",
+                          "name": "card3",
+                          "width": "fill_container",
+                          "fill": "$surface-card",
+                          "cornerRadius": "$radius-md",
+                          "layout": "vertical",
+                          "gap": 20,
+                          "padding": 32,
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "Bdrx2",
+                              "name": "icon3",
+                              "width": 28,
+                              "height": 28,
+                              "iconFontName": "server",
+                              "iconFontFamily": "lucide",
+                              "fill": "$accent-primary"
+                            },
+                            {
+                              "type": "text",
+                              "id": "IorAH",
+                              "name": "cardTitle3",
+                              "fill": "$foreground-primary",
+                              "content": "Backend & Systems",
+                              "fontFamily": "Inter",
+                              "fontSize": 18,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "jumyU",
+                              "name": "item3a",
+                              "fill": "$foreground-secondary",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "• Firebase\n• REST APIs\n• GraphQL\n• Cloud-based architecture",
+                              "lineHeight": 1.7,
+                              "fontFamily": "Inter",
+                              "fontSize": 14
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Eqan6",
+                          "name": "card4",
+                          "width": "fill_container",
+                          "fill": "$surface-card",
+                          "cornerRadius": "$radius-md",
+                          "layout": "vertical",
+                          "gap": 20,
+                          "padding": 32,
+                          "children": [
+                            {
+                              "type": "icon_font",
+                              "id": "whdy0",
+                              "name": "icon4",
+                              "width": 28,
+                              "height": 28,
+                              "iconFontName": "settings",
+                              "iconFontFamily": "lucide",
+                              "fill": "$accent-primary"
+                            },
+                            {
+                              "type": "text",
+                              "id": "hfSCT",
+                              "name": "cardTitle4",
+                              "fill": "$foreground-primary",
+                              "content": "Engineering",
+                              "fontFamily": "Inter",
+                              "fontSize": 18,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "DmWoo",
+                              "name": "item4a",
+                              "fill": "$foreground-secondary",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "• System Design\n• Performance Optimization\n• Scalable Architecture",
+                              "lineHeight": 1.7,
+                              "fontFamily": "Inter",
+                              "fontSize": 14
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ytZzT",
+              "name": "expSection",
+              "width": "fill_container",
+              "fill": "$surface-primary",
+              "layout": "vertical",
+              "gap": 48,
+              "padding": [
+                96,
+                120
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "U3IrN",
+                  "name": "eyebrow2",
+                  "fill": "$accent-primary",
+                  "content": "+ EXPERIENCE",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 13,
+                  "fontWeight": "500",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "frame",
+                  "id": "XbE35",
+                  "name": "headerGroup",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "U3nen",
+                      "name": "title2",
+                      "fill": "$foreground-primary",
+                      "content": "AI-Driven Software Developer",
+                      "fontFamily": "Inter",
+                      "fontSize": 28,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "o9l6b",
+                      "name": "subtitle2",
+                      "fill": "$foreground-secondary",
+                      "content": "14+ Years of Experience",
+                      "fontFamily": "Inter",
+                      "fontSize": 16
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "fXCt9",
+                  "name": "expCard",
+                  "width": "fill_container",
+                  "fill": "$surface-card",
+                  "cornerRadius": "$radius-md",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": {
+                      "left": 3
+                    },
+                    "fill": "$accent-primary"
+                  },
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "XnMFU",
+                      "name": "bullet1",
+                      "width": "fill_container",
+                      "gap": 16,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "aR4Vs",
+                          "name": "dot1",
+                          "fill": "$accent-primary",
+                          "width": 6,
+                          "height": 6
+                        },
+                        {
+                          "type": "text",
+                          "id": "HSXK8",
+                          "name": "txt1",
+                          "fill": "$foreground-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Built AI-powered systems for content generation and automation",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "sRCM7",
+                      "name": "bullet2",
+                      "width": "fill_container",
+                      "gap": 16,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "zj0OX",
+                          "name": "dot2",
+                          "fill": "$accent-primary",
+                          "width": 6,
+                          "height": 6
+                        },
+                        {
+                          "type": "text",
+                          "id": "6lr3W",
+                          "name": "txt2",
+                          "fill": "$foreground-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Developed cross-platform and backend systems",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "DZo5l",
+                      "name": "bullet3",
+                      "width": "fill_container",
+                      "gap": 16,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "JLMGp",
+                          "name": "dot3",
+                          "fill": "$accent-primary",
+                          "width": 6,
+                          "height": 6
+                        },
+                        {
+                          "type": "text",
+                          "id": "VWtL6",
+                          "name": "txt3",
+                          "fill": "$foreground-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Worked on global-scale applications and production environments",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "SXyaM",
+                      "name": "bullet4",
+                      "width": "fill_container",
+                      "gap": 16,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "DZfyI",
+                          "name": "dot4",
+                          "fill": "$accent-primary",
+                          "width": 6,
+                          "height": 6
+                        },
+                        {
+                          "type": "text",
+                          "id": "GNDHi",
+                          "name": "txt4",
+                          "fill": "$foreground-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Designed scalable architectures and pipelines",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "wiJSp",
+                      "name": "bullet5",
+                      "width": "fill_container",
+                      "gap": 16,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "3eq4U",
+                          "name": "dot5",
+                          "fill": "$accent-primary",
+                          "width": 6,
+                          "height": 6
+                        },
+                        {
+                          "type": "text",
+                          "id": "1SX7A",
+                          "name": "txt5",
+                          "fill": "$foreground-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Collaborated with cross-functional teams",
+                          "lineHeight": 1.6,
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "8geOF",
+          "name": "GitHub Section",
+          "width": "fill_container",
+          "fill": "$surface-primary",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            96,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "A4Knd",
+              "name": "eyebrow1",
+              "fill": "$accent-primary",
+              "content": "+ GITHUB",
+              "fontFamily": "Geist Mono",
+              "fontSize": 12,
+              "fontWeight": "500",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "4HP7e",
+              "name": "ghTitle",
+              "fill": "$foreground-primary",
+              "content": "Open Source & Code",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 36,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "6vXTI",
+              "name": "ghDesc",
+              "fill": "$foreground-secondary",
+              "textGrowth": "fixed-width",
+              "width": 600,
+              "content": "My GitHub showcases real-world code and continuous learning.",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "COzdO",
+              "name": "ghCardsRow",
+              "width": "fill_container",
+              "gap": 24,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "k1cC4",
+                  "name": "card1",
+                  "width": 280,
+                  "fill": "$surface-card",
+                  "cornerRadius": "$radius-md",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 32,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "RuwEh",
+                      "name": "icon1",
+                      "width": 32,
+                      "height": 32,
+                      "iconFontName": "code",
+                      "iconFontFamily": "lucide",
+                      "fill": "$accent-primary"
+                    },
+                    {
+                      "type": "text",
+                      "id": "oqpjp",
+                      "name": "t1",
+                      "fill": "$foreground-primary",
+                      "content": "Practical Implementations",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "gtvRX",
+                      "name": "d1",
+                      "fill": "$foreground-muted",
+                      "textGrowth": "fixed-width",
+                      "width": 220,
+                      "content": "Real projects with clean architecture and modern patterns",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "73vmW",
+                  "name": "card2",
+                  "width": 280,
+                  "fill": "$surface-card",
+                  "cornerRadius": "$radius-md",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 32,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "gPX85",
+                      "name": "icon2",
+                      "width": 32,
+                      "height": 32,
+                      "iconFontName": "layers",
+                      "iconFontFamily": "lucide",
+                      "fill": "$accent-primary"
+                    },
+                    {
+                      "type": "text",
+                      "id": "fdFEu",
+                      "name": "t2",
+                      "fill": "$foreground-primary",
+                      "content": "System Architecture",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "RT5Q2",
+                      "name": "d2",
+                      "fill": "$foreground-muted",
+                      "textGrowth": "fixed-width",
+                      "width": 220,
+                      "content": "Scalable designs and well-structured codebases",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "cWCQP",
+                  "name": "card3",
+                  "width": 280,
+                  "fill": "$surface-card",
+                  "cornerRadius": "$radius-md",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 32,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "4dcLH",
+                      "name": "icon3",
+                      "width": 32,
+                      "height": 32,
+                      "iconFontName": "brain-circuit",
+                      "iconFontFamily": "lucide",
+                      "fill": "$accent-primary"
+                    },
+                    {
+                      "type": "text",
+                      "id": "3qzF8",
+                      "name": "t3",
+                      "fill": "$foreground-primary",
+                      "content": "AI & Backend Experiments",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "OkwdV",
+                      "name": "d3",
+                      "fill": "$foreground-muted",
+                      "textGrowth": "fixed-width",
+                      "width": 220,
+                      "content": "Exploring AI integration and backend optimization",
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "OxHhu",
+              "name": "ghBtn",
+              "fill": "$accent-primary",
+              "cornerRadius": "$radius-sm",
+              "gap": 10,
+              "padding": [
+                14,
+                32
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "Dk5Rb",
+                  "name": "ghIcon",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "github",
+                  "iconFontFamily": "lucide",
+                  "fill": "$foreground-inverse"
+                },
+                {
+                  "type": "text",
+                  "id": "E73z9",
+                  "name": "ghBtnText",
+                  "fill": "$foreground-inverse",
+                  "content": "Visit GitHub Profile",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "Wv1so",
+              "name": "ghLink",
+              "fill": "$foreground-muted",
+              "content": "github.com/sevenuphome",
+              "fontFamily": "Geist Mono",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "sM8Fl",
+          "name": "Contact CTA Section",
+          "width": "fill_container",
+          "fill": "$surface-primary",
+          "layout": "vertical",
+          "padding": [
+            96,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "HuKsN",
+              "name": "ctaCard",
+              "width": "fill_container",
+              "fill": "$surface-card",
+              "cornerRadius": "$radius-lg",
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "$border-subtle"
+              },
+              "layout": "vertical",
+              "gap": 24,
+              "padding": [
+                64,
+                80
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "wWRJg",
+                  "name": "statusBadge",
+                  "fill": "$accent-muted",
+                  "cornerRadius": 100,
+                  "gap": 8,
+                  "padding": [
+                    8,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "n7YnA",
+                      "name": "statusDot",
+                      "fill": "#22C55EFF",
+                      "width": 8,
+                      "height": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "9gx1u",
+                      "name": "statusText",
+                      "fill": "$accent-primary",
+                      "content": "Open to Opportunities",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 11,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "oG8ai",
+                  "name": "ctaEyebrow",
+                  "fill": "$accent-primary",
+                  "content": "+ LET'S CONNECT",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 12,
+                  "fontWeight": "500",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "ikEyi",
+                  "name": "ctaTitle",
+                  "fill": "$foreground-primary",
+                  "textGrowth": "fixed-width",
+                  "width": 600,
+                  "content": "Let's build something impactful together.",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 32,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "ST0ja",
+                  "name": "ctaDesc",
+                  "fill": "$foreground-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": 560,
+                  "content": "I am open to new opportunities and collaborations. Whether you need an AI-driven solution, a mobile app, or a scalable backend system — let's talk.",
+                  "lineHeight": 1.6,
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "zrsmR",
+                  "name": "ctaBtnRow",
+                  "gap": 16,
+                  "justifyContent": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "3lfOd",
+                      "name": "ctaBtn",
+                      "fill": "$accent-primary",
+                      "cornerRadius": "$radius-sm",
+                      "gap": 10,
+                      "padding": [
+                        16,
+                        40
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "esFqi",
+                          "name": "ctaBtnIcon",
+                          "width": 20,
+                          "height": 20,
+                          "iconFontName": "mail",
+                          "iconFontFamily": "lucide",
+                          "fill": "$foreground-inverse"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ifugZ",
+                          "name": "ctaBtnText",
+                          "fill": "$foreground-inverse",
+                          "content": "Contact Me",
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "jeI0j",
+                      "name": "ctaBtn2",
+                      "cornerRadius": "$radius-sm",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$border-subtle"
+                      },
+                      "gap": 10,
+                      "padding": [
+                        16,
+                        40
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "peI0y",
+                          "name": "ctaBtn2Text",
+                          "fill": "$foreground-secondary",
+                          "content": "Download CV",
+                          "fontFamily": "Inter",
+                          "fontSize": 16,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Hyu0S",
+          "name": "Footer Section",
+          "width": "fill_container",
+          "fill": "$surface-secondary",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            40,
+            120
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "gl4k4",
+              "name": "footerTop",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "KWFsd",
+                  "name": "footerLeft",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Xsnnk",
+                      "name": "footerPlus",
+                      "fill": "$accent-primary",
+                      "content": "+",
+                      "fontFamily": "Inter",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "3RtEv",
+                      "name": "footerName",
+                      "fill": "$foreground-primary",
+                      "content": "Ekkasit Samathimankong",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "hLmvj",
+                  "name": "footerRight",
+                  "gap": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "HCAFG",
+                      "name": "fLink1",
+                      "fill": "$foreground-secondary",
+                      "content": "GitHub",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "4KlQh",
+                      "name": "fLink2",
+                      "fill": "$foreground-secondary",
+                      "content": "LinkedIn",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "rhQev",
+                      "name": "fLink3",
+                      "fill": "$foreground-secondary",
+                      "content": "Email",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "GLB6d",
+              "name": "footerDivider",
+              "fill": "$border-subtle",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "frame",
+              "id": "n0cRB",
+              "name": "footerBottom",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "gBXFM",
+                  "name": "copyright",
+                  "fill": "$foreground-muted",
+                  "content": "© 2024 Ekkasit Samathimankong. All rights reserved.",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "Knwrp",
+                  "name": "builtWith",
+                  "fill": "$foreground-muted",
+                  "content": "Built with modern web technologies",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "accent-hover": {
+      "type": "color",
+      "value": "#9333EAFF"
+    },
+    "accent-muted": {
+      "type": "color",
+      "value": "#A855F720"
+    },
+    "accent-primary": {
+      "type": "color",
+      "value": "#A855F7FF"
+    },
+    "border-subtle": {
+      "type": "color",
+      "value": "#27272AFF"
+    },
+    "foreground-inverse": {
+      "type": "color",
+      "value": "#0A0A0AFF"
+    },
+    "foreground-muted": {
+      "type": "color",
+      "value": "#71717AFF"
+    },
+    "foreground-primary": {
+      "type": "color",
+      "value": "#FFFFFFFF"
+    },
+    "foreground-secondary": {
+      "type": "color",
+      "value": "#A1A1AAFF"
+    },
+    "radius-lg": {
+      "type": "number",
+      "value": 16
+    },
+    "radius-md": {
+      "type": "number",
+      "value": 12
+    },
+    "radius-sm": {
+      "type": "number",
+      "value": 8
+    },
+    "spacing-2xl": {
+      "type": "number",
+      "value": 48
+    },
+    "spacing-3xl": {
+      "type": "number",
+      "value": 64
+    },
+    "spacing-4xl": {
+      "type": "number",
+      "value": 96
+    },
+    "spacing-lg": {
+      "type": "number",
+      "value": 24
+    },
+    "spacing-md": {
+      "type": "number",
+      "value": 16
+    },
+    "spacing-sm": {
+      "type": "number",
+      "value": 12
+    },
+    "spacing-xl": {
+      "type": "number",
+      "value": 32
+    },
+    "spacing-xs": {
+      "type": "number",
+      "value": 8
+    },
+    "surface-card": {
+      "type": "color",
+      "value": "#1A1A1AFF"
+    },
+    "surface-inverse": {
+      "type": "color",
+      "value": "#FFFFFFFF"
+    },
+    "surface-primary": {
+      "type": "color",
+      "value": "#0A0A0AFF"
+    },
+    "surface-secondary": {
+      "type": "color",
+      "value": "#141414FF"
+    }
+  }
+}
